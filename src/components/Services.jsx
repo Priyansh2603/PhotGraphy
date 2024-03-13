@@ -7,7 +7,7 @@ export default function Services() {
         <div class="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
             <div class="mb-10 text-center">
                 <span
-                    class="block mb-10 text-4xl font-semibold leading-4 tracking-widest text-center text-blue-500 uppercase dark:text-gray-400">
+                    class="block flex justify-center mb-10 text-xl sm:text-2xl md:text-4xl font-semibold leading-4 tracking-widest text-center text-blue-500 uppercase dark:text-gray-400">
                     Services We Provide
                 </span>
                 {/* <h1 class="text-3xl font-bold capitalize dark:text-white"> Services We Provide </h1> */}
@@ -15,7 +15,7 @@ export default function Services() {
             <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-2">
                 <a class="flex flex-col flex-wrap mb-0 overflow-hidden rounded lg:flex-row dark:bg-gray-800" href="#">
                     <div class="w-full overflow-hidden lg:w-2/4 h-80">
-                        <img class="object-cover w-full h-full transition-all hover:scale-110"
+                        <img style={{minHeight:'100%'}} class="object-cover w-full h-auto transition-all hover:scale-110"
                             src="https://i.pinimg.com/564x/fd/86/68/fd8668939c28d3860fb2b2b27e9e17f1.jpg" alt=""/>
                     </div>
                     <div

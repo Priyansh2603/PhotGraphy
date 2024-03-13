@@ -9,7 +9,7 @@ const About = () => {
             <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                 <div class="relative lg:max-w-md">
                     <img src={photographerImage} alt="aboutimage"
-                        class="relative z-10 object-cover w-full rounded sm:h-85 md:h-50 xl:h-110 h-80" />
+                        class="relative z-10 object-cover w-full rounded " style={{height:'50vh'}}/>
                     <div
                         class="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-purple-500 rounded shadow dark:border-purple-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-black dark:bg-gray-800 ">
                         <p class="text-lg flex items-center justify-center font-semibold md:w-72">
