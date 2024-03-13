@@ -68,7 +68,7 @@ function App() {
   <Routes>
   <Route path='/' element={<Main/>}/>
   <Route path='/candid' element={<Candid/>}/>
-  <Route path='/add' element={<AddPhotos/>}/>
+  <Route path='/add' element={<AddPhotos getImages={getImages}/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/shadi' element={<Shadi/>}/>
   <Route path='/function' element={<Function/>}/>

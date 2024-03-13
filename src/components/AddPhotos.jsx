@@ -5,7 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const db = getFirestore(app);
 
-const AddPhotos = () => {
+const AddPhotos = ({getImages}) => {
   const [image, setImage] = useState(null);
   const [password, setPassword] = useState('');
   const [albumName, setAlbumName] = useState('');
@@ -55,7 +55,8 @@ const AddPhotos = () => {
 
         setImageUrl(imageUrl);
         toast.success("Image Added Successfully to ",albumName);
-        alert("Image Added Successfully to ",albumName)
+        alert("Image Added Successfully to ",albumName);
+        getImages();
         setImageUrl("")
       } catch (error) {
         console.error('Error uploading image:', error);
